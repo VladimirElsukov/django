@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькуляторы Диеты</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Подключение внешнего CSS -->
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Диета Калькуляторы</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Главная</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Калькуляторы</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Истории успеха</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Форум</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3 sidebar">
+            <h5>Навигация</h5>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="#">Калькулятор калорий</a></li>
+                <li class="list-group-item"><a href="#">Индекс массы тела</a></li>
+                <li class="list-group-item"><a href="#">Дефицит калорий</a></li>
+                <li class="list-group-item"><a href="#">БЖУ</a></li>
+                <li class="list-group-item"><a href="#">Калькулятор воды</a></li>
+                <li class="list-group-item"><a href="#">Прогресс</a></li>
+                <li class="list-group-item"><a href="#">Советы по питанию</a></li>
+                <li class="list-group-item"><a href="#">Секреты успеха</a></li>
+                <li class="list-group-item"><a href="#">Физическая активность</a></li>
+                <li class="list-group-item"><a href="#">Часто задаваемые вопросы</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-9">
+            <h2>Добро пожаловать на наш сайт!</h2>
+            <p>Здесь вы найдете полезные инструменты для контроля и улучшения своего питания.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Популярные калькуляторы</h4>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Калькулятор калорий</h5>
+                            <p class="card-text">Определите свою суточную норму калорий.</p>
+                            <a href="#" class="btn btn-primary">Смотреть</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Индекс массы тела</h5>
+                            <p class="card-text">Узнайте, в каком диапазоне находится ваш ИМТ.</p>
+                            <a href="#" class="btn btn-primary">Смотреть</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <h4>Истории успеха</h4>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">История №1</h5>
+                            <p class="card-text">Читай, как наши пользователи достигли своей цели!</p>
+                            <a href="#" class="btn btn-secondary">Читать</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">История №2</h5>
+                            <p class="card-text">Узнай секреты успеха!</p>
+                            <a href="#" class="btn btn-secondary">Читать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Новая секция с формой -->
+            <div class="form-section mt-5">
+                <h4>Оставьте свой отзыв</h4>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Имя</label>
+                        <input type="text" class="form-control" id="name" placeholder="Введите ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Введите ваш email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea class="form-control" id="message" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer text-center">
+    <div class="container">
+        <span>&copy; 2024 Диета Калькуляторы. Все права защищены.</span>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
